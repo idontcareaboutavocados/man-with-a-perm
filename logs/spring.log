@@ -1,0 +1,139 @@
+2020-04-26 19:20:29.486  INFO 3552 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-26 19:20:29.487  INFO 3552 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-26 19:20:29.507  INFO 3552 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2020-04-26 19:20:29.542  INFO 3552 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:51041
+2020-04-26 19:20:29.783  INFO 3552 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:51041
+2020-04-26 19:20:29.832  INFO 3552 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2020-04-26 19:20:41.600  INFO 3552 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "681486899231064084", "sessionId": "983f227887dce922ed70a1687029a3d9", "event": {"token": "2268537d3f05aede", "guild_id": "681486899231064084", "endpoint": "russia502.discord.media:80"}}
+2020-04-26 19:20:41.730  INFO 3552 --- [parallel-2] com.jcabi.manifests.Manifests            : 73 attributes loaded from 84 stream(s) in 101ms, 73 saved, 1240 ignored: ["Ant-Version", "Archiver-Version", "Automatic-Module-Name", "Bnd-LastModified", "Build-Jdk", "Build-Jdk-Spec", "Build-Time", "Built-By", "Bundle-ActivationPolicy", "Bundle-Activator", "Bundle-Category", "Bundle-Description", "Bundle-DocURL", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-NativeCode", "Bundle-RequiredExecutionEnvironment", "Bundle-SymbolicName", "Bundle-Vendor", "Bundle-Version", "Copyright", "Created-By", "Export-Package", "Extension-Name", "Git-Revision", "Implementation-Build", "Implementation-Build-Date", "Implementation-Title", "Implementation-URL", "Implementation-Vendor", "Implementation-Vendor-Id", "Implementation-Version", "Import-Package", "Include-Resource", "JCabi-Build", "JCabi-Date", "JCabi-Version", "Jar-Name", "Jar-Version", "Java-Vendor", "Java-Version", "Kotlin-Runtime-Component", "Kotlin-Version", "Log4jReleaseKey", "Log4jReleaseManager", "Log4jReleaseVersion", "Magma-Version", "Main-Class", "Manifest-Version", "Multi-Release", "Originally-Created-By", "Os-Arch", "Os-Name", "Os-Version", "Private-Package", "Provide-Capability", "Require-Bundle", "Require-Capability", "Scm-Connection", "Scm-Revision", "Scm-Url", "Specification-Title", "Specification-Vendor", "Specification-Version", "Spring-Boot-Classes", "Spring-Boot-Lib", "Spring-Boot-Version", "Start-Class", "Tool", "X-Compile-Source-JDK", "X-Compile-Target-JDK", "url"]
+2020-04-26 19:21:24.813  INFO 3552 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:51041 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2020-04-26 19:44:30.466  INFO 6508 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.3.1
+	Build:          997
+	Build time:     25.03.2020 12:30:43 UTC
+	Branch          master
+	Commit:         29f68ba
+	Commit time:    25.03.2020 12:28:48 UTC
+	JVM:            13
+	Lavaplayer      1.3.38
+
+2020-04-26 19:44:30.635  INFO 6508 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-75LQEOR with PID 6508 (C:\Users\booya\Documents\man-with-a-perm\Lavalink.jar started by booya in C:\Users\booya\Documents\man-with-a-perm)
+2020-04-26 19:44:30.637  INFO 6508 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2020-04-26 19:44:30.921  WARN 6508 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-04-26 19:44:33.396  WARN 6508 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-04-26 19:44:33.426  INFO 6508 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-04-26 19:44:33.426  INFO 6508 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2675 ms
+2020-04-26 19:44:34.064  WARN 6508 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2020-04-26 19:44:34.082  INFO 6508 --- [main] l.s.c.AudioSendFactoryConfiguration      : OS: Windows 10, Arch: amd64
+2020-04-26 19:44:34.082  INFO 6508 --- [main] l.s.c.AudioSendFactoryConfiguration      : JDA-NAS supported system detected. Enabled native audio sending.
+2020-04-26 19:44:34.083  INFO 6508 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting buffer to 400ms
+2020-04-26 19:44:34.083  INFO 6508 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting playlist load limit to 6
+2020-04-26 19:44:34.653  INFO 6508 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-04-26 19:44:35.508  INFO 6508 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-26 19:44:36.192  INFO 6508 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2020-04-26 19:44:36.214  INFO 6508 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-04-26 19:44:36.472  INFO 6508 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 7000 (http) with context path ''
+2020-04-26 19:44:36.480  INFO 6508 --- [main] lavalink.server.Launcher                 : Started Launcher in 7.022 seconds (JVM running for 7.853)
+2020-04-26 19:45:17.263  INFO 6508 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-26 19:45:17.264  INFO 6508 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-26 19:45:17.278  INFO 6508 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-04-26 19:45:17.312  INFO 6508 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:51247
+2020-04-26 19:45:17.526  INFO 6508 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:51247
+2020-04-26 19:45:17.576  INFO 6508 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2020-04-26 19:45:27.589  INFO 6508 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "681486899231064084", "sessionId": "77e11f5c03fa283d05376a945ee497e2", "event": {"token": "bc3ed4051404006f", "guild_id": "681486899231064084", "endpoint": "russia502.discord.media:80"}}
+2020-04-26 19:45:27.711  INFO 6508 --- [parallel-2] com.jcabi.manifests.Manifests            : 73 attributes loaded from 84 stream(s) in 89ms, 73 saved, 1240 ignored: ["Ant-Version", "Archiver-Version", "Automatic-Module-Name", "Bnd-LastModified", "Build-Jdk", "Build-Jdk-Spec", "Build-Time", "Built-By", "Bundle-ActivationPolicy", "Bundle-Activator", "Bundle-Category", "Bundle-Description", "Bundle-DocURL", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-NativeCode", "Bundle-RequiredExecutionEnvironment", "Bundle-SymbolicName", "Bundle-Vendor", "Bundle-Version", "Copyright", "Created-By", "Export-Package", "Extension-Name", "Git-Revision", "Implementation-Build", "Implementation-Build-Date", "Implementation-Title", "Implementation-URL", "Implementation-Vendor", "Implementation-Vendor-Id", "Implementation-Version", "Import-Package", "Include-Resource", "JCabi-Build", "JCabi-Date", "JCabi-Version", "Jar-Name", "Jar-Version", "Java-Vendor", "Java-Version", "Kotlin-Runtime-Component", "Kotlin-Version", "Log4jReleaseKey", "Log4jReleaseManager", "Log4jReleaseVersion", "Magma-Version", "Main-Class", "Manifest-Version", "Multi-Release", "Originally-Created-By", "Os-Arch", "Os-Name", "Os-Version", "Private-Package", "Provide-Capability", "Require-Bundle", "Require-Capability", "Scm-Connection", "Scm-Revision", "Scm-Url", "Specification-Title", "Specification-Vendor", "Specification-Version", "Spring-Boot-Classes", "Spring-Boot-Lib", "Spring-Boot-Version", "Start-Class", "Tool", "X-Compile-Source-JDK", "X-Compile-Target-JDK", "url"]
+2020-04-26 19:48:08.433  INFO 6508 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-04-26 19:48:09.683  INFO 6508 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: жуждики
+2020-04-26 19:48:15.607  INFO 6508 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "681486899231064084", "track": "QAAAcQIAENC20YPQttC00LjQutC4IDUAB2RlbWluZXIAAAAAAAMFcAALSVBqaGFxUEZNa3cAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1JUGpoYXFQRk1rdwAHeW91dHViZQAAAAAAAAAA"}
+2020-04-26 19:50:09.353  INFO 6508 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-04-26 19:50:09.954  INFO 6508 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: жуждики
+2020-04-26 19:51:33.704  INFO 6508 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "681486899231064084", "track": "QAAAcQIAENC20YPQttC00LjQutC4IDMAB2RlbWluZXIAAAAAAAJxAAALZ0J3NjlPQnY1WnMAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1nQnc2OU9CdjVacwAHeW91dHViZQAAAAAAAAAA"}
+2020-04-26 19:54:14.049  INFO 6508 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "681486899231064084"}
+2020-04-26 19:54:14.261  INFO 6508 --- [parallel-4] s.n.m.impl.connections.AudioWebSocket    : Websocket to wss://russia502.discord.media/?v=4 closed with code 4014 and reason Disconnected.
+2020-04-26 19:54:14.262  INFO 6508 --- [parallel-4] s.n.m.impl.connections.AudioWebSocket    : Closing
+2020-04-26 19:55:47.734  INFO 1608 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.3.1
+	Build:          997
+	Build time:     25.03.2020 12:30:43 UTC
+	Branch          master
+	Commit:         29f68ba
+	Commit time:    25.03.2020 12:28:48 UTC
+	JVM:            13
+	Lavaplayer      1.3.38
+
+2020-04-26 19:55:47.922  INFO 1608 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-75LQEOR with PID 1608 (C:\Users\booya\Documents\man-with-a-perm\Lavalink.jar started by booya in C:\Users\booya\Documents\man-with-a-perm)
+2020-04-26 19:55:47.924  INFO 1608 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2020-04-26 19:55:48.158  WARN 1608 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-04-26 19:55:51.116  WARN 1608 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-04-26 19:55:51.154  INFO 1608 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-04-26 19:55:51.155  INFO 1608 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3095 ms
+2020-04-26 19:55:51.708  WARN 1608 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2020-04-26 19:55:51.725  INFO 1608 --- [main] l.s.c.AudioSendFactoryConfiguration      : OS: Windows 10, Arch: amd64
+2020-04-26 19:55:51.726  INFO 1608 --- [main] l.s.c.AudioSendFactoryConfiguration      : JDA-NAS supported system detected. Enabled native audio sending.
+2020-04-26 19:55:51.726  INFO 1608 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting buffer to 400ms
+2020-04-26 19:55:51.728  INFO 1608 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting playlist load limit to 6
+2020-04-26 19:55:52.244  INFO 1608 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-04-26 19:55:53.153  INFO 1608 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-26 19:55:53.825  INFO 1608 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2020-04-26 19:55:53.850  INFO 1608 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-04-26 19:55:54.142  INFO 1608 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 7000 (http) with context path ''
+2020-04-26 19:55:54.151  INFO 1608 --- [main] lavalink.server.Launcher                 : Started Launcher in 7.441 seconds (JVM running for 8.297)
+2020-04-26 19:57:48.643  INFO 1608 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-26 19:57:48.644  INFO 1608 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-26 19:57:48.656  INFO 1608 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-04-26 19:57:48.691  INFO 1608 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:51473
+2020-04-26 19:57:48.880  INFO 1608 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:51473
+2020-04-26 19:57:48.912  INFO 1608 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2020-04-26 20:06:03.869  INFO 1608 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:51473 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2020-04-26 20:06:43.292  INFO 1608 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:51551
+2020-04-26 20:06:43.302  INFO 1608 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:51551
+2020-04-26 20:06:43.304  INFO 1608 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2020-04-26 20:06:50.922  INFO 1608 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "681486899231064084", "sessionId": "6be7f99ffab341b7d5973feb619a8097", "event": {"token": "daadf73fcca7796e", "guild_id": "681486899231064084", "endpoint": "russia502.discord.media:80"}}
+2020-04-26 20:06:51.059  INFO 1608 --- [parallel-3] com.jcabi.manifests.Manifests            : 73 attributes loaded from 84 stream(s) in 96ms, 73 saved, 1240 ignored: ["Ant-Version", "Archiver-Version", "Automatic-Module-Name", "Bnd-LastModified", "Build-Jdk", "Build-Jdk-Spec", "Build-Time", "Built-By", "Bundle-ActivationPolicy", "Bundle-Activator", "Bundle-Category", "Bundle-Description", "Bundle-DocURL", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-NativeCode", "Bundle-RequiredExecutionEnvironment", "Bundle-SymbolicName", "Bundle-Vendor", "Bundle-Version", "Copyright", "Created-By", "Export-Package", "Extension-Name", "Git-Revision", "Implementation-Build", "Implementation-Build-Date", "Implementation-Title", "Implementation-URL", "Implementation-Vendor", "Implementation-Vendor-Id", "Implementation-Version", "Import-Package", "Include-Resource", "JCabi-Build", "JCabi-Date", "JCabi-Version", "Jar-Name", "Jar-Version", "Java-Vendor", "Java-Version", "Kotlin-Runtime-Component", "Kotlin-Version", "Log4jReleaseKey", "Log4jReleaseManager", "Log4jReleaseVersion", "Magma-Version", "Main-Class", "Manifest-Version", "Multi-Release", "Originally-Created-By", "Os-Arch", "Os-Name", "Os-Version", "Private-Package", "Provide-Capability", "Require-Bundle", "Require-Capability", "Scm-Connection", "Scm-Revision", "Scm-Url", "Specification-Title", "Specification-Vendor", "Specification-Version", "Spring-Boot-Classes", "Spring-Boot-Lib", "Spring-Boot-Version", "Start-Class", "Tool", "X-Compile-Source-JDK", "X-Compile-Target-JDK", "url"]
+2020-04-26 20:07:03.870  INFO 1608 --- [pool-2-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2020-04-26 20:08:00.039  INFO 1608 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:51551 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2020-04-26 20:09:00.041  INFO 1608 --- [pool-3-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2020-04-26 20:14:48.999  INFO 1608 --- [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:51635
+2020-04-26 20:14:49.013  INFO 1608 --- [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:51635
+2020-04-26 20:14:49.015  INFO 1608 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2020-04-26 20:15:07.920  INFO 1608 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:51635 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2020-04-26 20:15:35.030  INFO 1608 --- [XNIO-1 task-4] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:51652
+2020-04-26 20:15:35.044  INFO 1608 --- [XNIO-1 task-4] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:51652
+2020-04-26 20:15:35.046  INFO 1608 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2020-04-26 20:16:00.454  INFO 1608 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "681486899231064084", "sessionId": "cc316a59378fb7c8ed38d490a293c97d", "event": {"token": "df7aab00270aadbb", "guild_id": "681486899231064084", "endpoint": "russia502.discord.media:80"}}
+2020-04-26 20:16:07.920  INFO 1608 --- [pool-5-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2020-04-26 20:16:45.657  INFO 1608 --- [XNIO-1 task-5] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-04-26 20:16:46.943  INFO 1608 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: minecraft soundtrack 10 hour
+2020-04-26 20:16:50.949  INFO 1608 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "681486899231064084", "track": "QAAAigIAK01pbmVjcmFmdCBDYWxtIDEsIDIsIDMgKG1peCkgTXVzaWMgMTAgSE9VUlMABUF4aWx6AAAAAAIlVOgAC2c5YzJXVENqMFBrAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9ZzljMldUQ2owUGsAB3lvdXR1YmUAAAAAAAAAAA=="}
+2020-04-26 20:18:43.719  INFO 1608 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:51652 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2020-04-26 20:19:43.719  INFO 1608 --- [pool-6-thread-1] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2020-04-26 20:23:44.651  INFO 1608 --- [XNIO-1 task-7] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:51732
+2020-04-26 20:23:44.669  INFO 1608 --- [XNIO-1 task-7] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:51732
+2020-04-26 20:23:44.671  INFO 1608 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2020-04-26 20:23:52.489  INFO 1608 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "681486899231064084", "sessionId": "c065aa842fd730ffaf8c1fd0a957cdc7", "event": {"token": "1adcbfcbd5baae48", "guild_id": "681486899231064084", "endpoint": "russia502.discord.media:80"}}
+2020-04-26 20:24:53.054  INFO 1608 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:51732 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2020-04-26 20:25:53.056  INFO 1608 --- [pool-8-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2020-04-26 20:26:10.030  INFO 1608 --- [XNIO-1 task-8] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:51773
+2020-04-26 20:26:10.042  INFO 1608 --- [XNIO-1 task-8] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:51773
+2020-04-26 20:26:10.043  INFO 1608 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "configureResuming", "key": "music-node", "timeout": 60}
+2020-04-26 20:26:16.911  INFO 1608 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "681486899231064084", "sessionId": "e5a8f98d08f6823b76ffaa612bfb4398", "event": {"token": "1adcbfcbd5baae48", "guild_id": "681486899231064084", "endpoint": "russia502.discord.media:80"}}
+2020-04-26 20:26:33.510  INFO 1608 --- [parallel-2] s.n.m.impl.connections.AudioWebSocket    : Websocket to wss://russia502.discord.media/?v=4 closed with code 4014 and reason Disconnected.
+2020-04-26 20:26:33.521  INFO 1608 --- [parallel-2] s.n.m.impl.connections.AudioWebSocket    : Closing
+2020-04-26 20:26:36.162  INFO 1608 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:51773 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key music-node
+2020-04-26 20:27:36.162  INFO 1608 --- [pool-9-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
